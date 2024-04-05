@@ -1,14 +1,6 @@
 import React from 'react';
-import {SafeAreaView, StatusBar, View, Text} from 'react-native';
+import AppNavigation from './src/navigation/appNavigation';
 
-function App() {
-  return (
-    <SafeAreaView>
-      <StatusBar />
-      <View className='bg-black w-full h-full flex justify-center items-center'>
-        <Text className='text-white'>App</Text>
-      </View>
-    </SafeAreaView>
-  );
+export default function App() {
+  return <AppNavigation />;
 }
-export default App;
