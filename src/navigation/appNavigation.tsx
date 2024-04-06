@@ -22,10 +22,12 @@ export default function AppNavigation() {
           tabBarInactiveTintColor: 'gray',
           tabBarStyle: {
             backgroundColor: '#2c3e50',
+            paddingTop: 3,
           },
           tabBarLabelStyle: {
             fontSize: 12,
             fontWeight: 'bold',
+            paddingBottom: 5,
           },
           tabBarIcon: ({ color, size }) => {
             let iconName;
